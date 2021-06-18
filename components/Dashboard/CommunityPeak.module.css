@@ -1,0 +1,79 @@
+.container{
+   height: 250px;
+   width: 100%;
+   padding: 2%;
+   background-color: rgba(8, 8, 60, 0.898);
+   margin-top: 20px;
+}
+.selection{
+   width: 100%;
+   height: fit-content;
+   padding: 2%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.selection select{
+   width: 30%;
+   text-align: center;
+   outline: none;
+   background-color: rgb(194, 192, 192);
+   height: 30px;
+   border-radius: 10px;
+   font-weight: 700;
+}
+.selection div{
+   height: 40px;
+   width: 40px;
+   border-radius: 100%;
+   background-color: rgb(136, 134, 134);
+   color: black;
+   border-style: solid;
+   border-color: white;
+   border-width: 2px;
+   box-shadow: 2px 2px 5px white, -2px -2px 5px white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 900;
+   cursor: pointer;
+   outline: none;
+}
+.selection div:active{
+   opacity: 0.2;
+}
+.results{
+   height: 70%;
+   padding: 2%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   column-gap: 20px;
+}
+.results div{
+   background-color: rgb(71, 71, 146);
+   width: 100%;
+   font-size: 20px;
+   font-weight: 700;
+   height: 100%;
+   padding: 2%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+   border-radius: 20px;
+   color: rgb(225, 223, 223);
+}
+
+.heading{
+   font-size: 18px;
+   color: orange;
+  
+}
+
+@media screen and (min-width:872px){
+   .container{
+      border-radius: 20px;
+   }
+
+}

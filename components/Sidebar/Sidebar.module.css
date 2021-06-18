@@ -1,0 +1,57 @@
+
+.desktop{
+   display: none;
+}
+
+@media screen and (min-width:872px){
+
+.desktop{
+   display: block;
+   min-height: 93%;
+   width: 25%;
+   position: absolute;
+   left: 2%;
+   padding: 2% 2%;
+   border-radius: 20px;
+   font-size: 21px;
+   box-shadow: 1px 1px 7px black;
+}
+.desktop .header{
+   color: whitesmoke;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0%;
+}
+.desktop .header span{
+   font-size: 13px;
+}
+.desktop ul{
+   margin-top: 10px;
+   height: fit-content;
+   width: 100%;
+   list-style: none;
+   padding: 2%;
+   position: -webkit-sticky;
+   position: sticky;
+   top: 2%;
+}
+.desktop ul li{
+   padding: 3%;
+   width: 100%;
+   margin-top: 20px;
+   cursor: pointer;
+   font-size: 18px;
+}
+.desktop ul li:hover{
+   color: white;
+}
+.desktop ul li:active{
+   opacity: 0.2;
+}
+.desktop ul span{
+   max-height: 20px;
+   max-width: 20px;
+   fill: rgb(213, 210, 210);
+   padding-right: 3%;
+}
+}

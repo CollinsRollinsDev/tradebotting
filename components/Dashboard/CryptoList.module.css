@@ -1,0 +1,101 @@
+.container{
+   height: 250px;
+   width: 100%;
+   background-color: transparent;
+   margin-top: 10px;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   overflow-x: scroll;
+   column-gap: 30px;
+   padding: 2%;
+}
+.container .cryptoContainer{
+   height: 100%;
+   min-width: 80%;
+   background-color: rgba(8, 8, 60, 0.898);
+   padding: 2%;
+   position: relative;
+   border-radius: 20px;
+}
+.container .cryptoContainer .coinID{
+   min-height: 20%;
+   width: 100%;
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 2%;
+   color: whitesmoke;
+
+}
+.container .cryptoContainer .coinID div{
+   background-color: transparent;
+   height: 40px;
+   width:50px;
+   border-radius: 100%;
+}
+.container .cryptoContainer .coinID div img{
+   height: 100%;
+   width: 100%;
+}
+
+.container .cryptoContainer .coinID .coinName{
+   width: 100%;
+   margin-left: 10px;
+   font-size: 23px;
+   font-family: 'Fjalla One', sans-serif;
+   font-weight: 700;
+}
+.prices{
+   margin-top: 20px;
+   height: 60%;
+   width: 100%;
+   color: rgb(223, 223, 223);
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   padding: 2%;
+   font-size: 19px;
+   font-family: 'Fjalla One', sans-serif;
+}
+.prices p {
+   width: 100%;
+   position: relative;
+}
+.prices p span{
+   position: absolute;
+   right: 5%;
+}
+
+@media screen and (min-width:872px){
+   .container{
+      height: 250px;
+      width: 100%;
+      background-color: transparent;
+      margin-top: 10px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      overflow-x:auto;
+      column-gap: 30px;
+      padding: 2%;
+   }
+   .container .cryptoContainer{
+      height: 100%;
+      min-width: 80%;
+      background-color: rgba(8, 8, 60, 0.898);
+      padding: 2%;
+      position: relative;
+      border-radius: 20px;
+   }
+   .container .cryptoContainer .coinID{
+      min-height: 20%;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 2%;
+      color: whitesmoke;
+   
+   }
+}

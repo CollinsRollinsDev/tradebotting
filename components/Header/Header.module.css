@@ -1,0 +1,72 @@
+.container{
+   width: 100%;
+   height: 50px;
+   background-color: rgb(71, 71, 146);
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   padding: 2%;
+   column-gap: 10px;
+   color: rgb(255, 255, 255);
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 2;
+}
+.siteName{
+   cursor: pointer;
+   flex: 4;
+   font-weight: 700;
+   font-size: 24px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.siteName span{
+   font-size: 14px;
+}
+.quickLink{
+   flex: 2;
+   display: flex;
+   padding: 2%;
+   justify-content: space-between;
+   align-items: center;
+   /* background-color: green; */
+   height: inherit;
+}
+.quickLink div{
+   height: 40px;
+   width: 40px;
+   background-color: rgba(8, 8, 60, 0.898);
+   border-radius: 100%;
+   display: flex;
+   fill: white;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+.menuDiv{
+   flex: 1;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   height: inherit;
+   font-weight: 700;
+   cursor: pointer;
+   fill: white;
+}
+.menuDiv:hover{
+   opacity: 0.7;
+}
+.menuDiv:active{
+   opacity: 0.2;
+}
+.profileDiv{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (min-width:872px){
+   .container{
+      display: none;
+   }
+}

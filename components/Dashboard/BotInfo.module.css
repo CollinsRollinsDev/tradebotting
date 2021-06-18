@@ -1,0 +1,28 @@
+.container{
+   height: fit-content;
+   width: 100%;
+   padding: 2%;
+   background-color: ;
+   margin-top: 20px;
+}
+.container h2{
+   font-size: 21px;
+   color: rgb(218, 218, 218);
+   text-decoration: underline;
+}
+.container p{
+   line-height: 18px;
+   margin-top: 10px;
+   color: rgb(192, 192, 192);
+}
+.container h3{
+   font-size: 18px;
+   color: rgb(218, 218, 218);
+   margin-top: 10px;
+   text-decoration: underline;
+}
+
+@media screen and (min-width:872px){
+
+
+}
