@@ -70,6 +70,8 @@ const ChooseCoin = () => {
       await fetchCryptoDataApi();
       dispatch(updateSelectedTrade(tradeSelectedCoinData));
       console.log("datas dispatched");
+    } else{
+      alert("Something went wrong! You may have left out some inputs");
     }
   };
 
