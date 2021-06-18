@@ -85,7 +85,7 @@ const CryptosList = ({ currentPrice }) => {
               $
               {mountedBtc.current_price
                 ? mountedBtc.current_price.toLocaleString()
-                : null}
+                : "Fetching Data"}
             </span>
           </p>
           <p>
@@ -106,7 +106,7 @@ const CryptosList = ({ currentPrice }) => {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2,
                   })
-                : null}
+                : "Fetching Data"}
             </span>
           </p>
         </div>
@@ -126,7 +126,7 @@ const CryptosList = ({ currentPrice }) => {
               $
               {mountedEth.current_price
                 ? mountedEth.current_price.toLocaleString()
-                : null}
+                : "Fetching Data"}
             </span>
           </p>
           <p>
@@ -147,7 +147,7 @@ const CryptosList = ({ currentPrice }) => {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2,
                   })
-                : null}
+                : "Fetching Data"}
             </span>
           </p>
         </div>
@@ -167,7 +167,7 @@ const CryptosList = ({ currentPrice }) => {
               $
               {mountedBnb.current_price
                 ? mountedBnb.current_price.toLocaleString()
-                : null}
+                : "Fetching Data"}
             </span>
           </p>
           <p>
@@ -188,7 +188,7 @@ const CryptosList = ({ currentPrice }) => {
                     minimumFractionDigits: 2,
                     maximumFractionDigits: 2,
                   })
-                : null}
+                :"Fetching Data"}
             </span>
           </p>
         </div>
