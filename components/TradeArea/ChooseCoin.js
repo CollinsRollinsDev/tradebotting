@@ -89,7 +89,9 @@ const ChooseCoin = () => {
           <option value="ethereum">Ethereum</option>
           <option value="binancecoin">Binance Coin</option>
           <option value="dogecoin">DogeCoin</option>
-          <option value="binancecoin">Binance Coin</option>
+          <option value="dash">Dash</option>
+          <option value="reserverighttoken">RSR</option>
+          <option value="safemoon">SafeMoon</option>
           <option value="hive">Hive</option>
         </select>
 
