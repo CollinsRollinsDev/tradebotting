@@ -1,6 +1,6 @@
 import styles from "./Trade.module.css";
 import { useState, useEffect, useMemo } from "react";
-import { useSelector, useDispatch } from "react-redux"
+import { useSelector, useDispatch } from "react-redux";
 
 const CalcSurface = ({ props }) => {
   const selectedInterval = useSelector(
